@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "practicaMidu",
+    "slug": "practicaMidu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "practicamidu",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.santosnahuel.practicaMidu"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c7d07fd6-2714-42b9-b82b-e43dfa8d0c68"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
